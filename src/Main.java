@@ -3,10 +3,10 @@ public class Main {
 
 
         ArvorePersonagens arvore = new ArvorePersonagens();
-        arvore.inserir(new Personagem(50, "Arthas", 60, "Paladino"));
-        arvore.inserir(new Personagem(30, "Jaina", 55, "Maga"));
-        arvore.inserir(new Personagem(70, "Thrall", 58, "Xamã"));
-        arvore.inserir(new Personagem(40, "Illidan", 59, "Caçador"));
+        arvore.inserir(new Personagem(50, "Jonata", 60, "Paladino"));
+        arvore.inserir(new Personagem(30, "Rafael", 55, "Maga"));
+        arvore.inserir(new Personagem(70, "JoaoH", 58, "Guerreiro"));
+        arvore.inserir(new Personagem(40, "Sami", 59, "Caçador"));
 
         System.out.println("Percursos:");
         arvore.percursos();
